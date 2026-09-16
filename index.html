@@ -1,0 +1,239 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="Luxe Estates - Discover the finest luxury properties in Egypt">
+    <title>Luxe Estates | Luxury Real Estate</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,800;0,900;1,400;1,600&family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo"><i class="fas fa-building"></i><span>Luxe Estates</span></a>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#properties" class="nav-link">Properties</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger"><span class="bar"></span><span class="bar"></span><span class="bar"></span></div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero" id="home">
+        <video autoplay muted loop playsinline preload="auto" class="hero-video" id="heroVideo" poster="images/villa-1.png">
+            <source src="videos/hero-video.mp4" type="video/mp4">
+        </video>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span class="t-line" id="typeLine1">Discover</span>
+                <span class="t-line" id="typeLine2">Your Dream Home</span>
+            </h1>
+            <p class="hero-subtitle reveal" id="heroSub">Handpicked luxury properties in the most prestigious locations.</p>
+            <div class="hero-buttons reveal" id="heroBtns">
+                <a href="#properties" class="btn btn-primary"><i class="fas fa-search"></i> Explore Properties</a>
+                <a href="#contact" class="btn btn-secondary"><i class="fab fa-whatsapp"></i> Get in Touch</a>
+            </div>
+        </div>
+        <div class="scroll-indicator reveal" id="scrollHint">
+            <div class="mouse"><div class="wheel"></div></div>
+            <span>Scroll</span>
+        </div>
+    </section>
+
+    <!-- Stats -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item" data-aos><div class="stat-icon"><i class="fas fa-building"></i></div><div class="stat-number" data-target="500">0</div><div class="stat-label">Premium Properties</div></div>
+                <div class="stat-item" data-aos><div class="stat-icon"><i class="fas fa-users"></i></div><div class="stat-number" data-target="1200">0</div><div class="stat-label">Happy Clients</div></div>
+                <div class="stat-item" data-aos><div class="stat-icon"><i class="fas fa-award"></i></div><div class="stat-number" data-target="15">0</div><div class="stat-label">Years of Experience</div></div>
+                <div class="stat-item" data-aos><div class="stat-icon"><i class="fas fa-city"></i></div><div class="stat-number" data-target="25">0</div><div class="stat-label">Cities Covered</div></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Properties -->
+    <section class="properties" id="properties">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Properties</h2>
+                <p class="section-subtitle">Handpicked residences in the most prestigious communities</p>
+            </div>
+            <div class="properties-grid">
+                <div class="property-card" data-aos>
+                    <div class="property-image">
+                        <img src="images/villa-1.png" alt="Modern villa with pool at sunset">
+                        <div class="property-badge">Featured</div>
+                        <div class="property-actions"><button class="action-btn"><i class="far fa-heart"></i></button><button class="action-btn"><i class="fas fa-share-alt"></i></button></div>
+                    </div>
+                    <div class="property-content">
+                        <h3 class="property-title">Modern Villa with Panoramic Views</h3>
+                        <p class="property-location"><i class="fas fa-map-marker-alt"></i> New Cairo</p>
+                        <div class="property-features"><span><i class="fas fa-bed"></i> 5 Beds</span><span><i class="fas fa-bath"></i> 4 Baths</span><span><i class="fas fa-ruler-combined"></i> 450 m²</span></div>
+                        <div class="property-price"><span class="price">8,500,000</span><span class="currency">EGP</span></div>
+                    </div>
+                </div>
+                <div class="property-card" data-aos>
+                    <div class="property-image">
+                        <img src="images/penthouse.png" alt="Luxury penthouse with night city view">
+                        <div class="property-badge new">New</div>
+                        <div class="property-actions"><button class="action-btn"><i class="far fa-heart"></i></button><button class="action-btn"><i class="fas fa-share-alt"></i></button></div>
+                    </div>
+                    <div class="property-content">
+                        <h3 class="property-title">Luxury Penthouse Duplex</h3>
+                        <p class="property-location"><i class="fas fa-map-marker-alt"></i> Sheikh Zayed</p>
+                        <div class="property-features"><span><i class="fas fa-bed"></i> 4 Beds</span><span><i class="fas fa-bath"></i> 3 Baths</span><span><i class="fas fa-ruler-combined"></i> 320 m²</span></div>
+                        <div class="property-price"><span class="price">6,200,000</span><span class="currency">EGP</span></div>
+                    </div>
+                </div>
+                <div class="property-card" data-aos>
+                    <div class="property-image">
+                        <img src="images/villa-2.png" alt="Private villa with landscaped garden">
+                        <div class="property-actions"><button class="action-btn"><i class="far fa-heart"></i></button><button class="action-btn"><i class="fas fa-share-alt"></i></button></div>
+                    </div>
+                    <div class="property-content">
+                        <h3 class="property-title">Private Villa with Landscaped Garden</h3>
+                        <p class="property-location"><i class="fas fa-map-marker-alt"></i> Fifth Settlement</p>
+                        <div class="property-features"><span><i class="fas fa-bed"></i> 6 Beds</span><span><i class="fas fa-bath"></i> 5 Baths</span><span><i class="fas fa-ruler-combined"></i> 600 m²</span></div>
+                        <div class="property-price"><span class="price">12,000,000</span><span class="currency">EGP</span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="view-all"><a href="#" class="btn btn-primary">View All Properties <i class="fas fa-arrow-right"></i></a></div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Services</h2>
+                <p class="section-subtitle">A complete suite of premium real estate services</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card" data-aos><div class="service-icon"><i class="fas fa-home"></i></div><h3>Buying &amp; Selling</h3><p>We help you find the perfect property or sell yours at the best market value.</p></div>
+                <div class="service-card" data-aos><div class="service-icon"><i class="fas fa-key"></i></div><h3>Property Rental</h3><p>Curated short and long-term rental options in prime locations.</p></div>
+                <div class="service-card" data-aos><div class="service-icon"><i class="fas fa-chart-line"></i></div><h3>Investment Consulting</h3><p>Expert guidance to make the smartest real estate investment decisions.</p></div>
+                <div class="service-card" data-aos><div class="service-icon"><i class="fas fa-file-contract"></i></div><h3>Legal Procedures</h3><p>We handle all contracts, paperwork and legal procedures for you.</p></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-images" data-aos>
+                    <div class="about-img-main"><img src="images/interior.png" alt="Luxury interior"></div>
+                    <div class="about-img-secondary"><img src="images/team.png" alt="Our team"></div>
+                    <div class="experience-badge"><span class="years">15+</span><span class="text">Years</span></div>
+                </div>
+                <div class="about-text" data-aos>
+                    <h2 class="section-title">Who We Are</h2>
+                    <p class="about-description">Luxe Estates is a leading luxury real estate company, dedicated to delivering an exceptional experience through a passionate team of experts and an exclusive portfolio of fine residences.</p>
+                    <ul class="about-features">
+                        <li><i class="fas fa-check-circle"></i> Deep expertise in the luxury property market</li>
+                        <li><i class="fas fa-check-circle"></i> Exclusive portfolio of premium residences</li>
+                        <li><i class="fas fa-check-circle"></i> Dedicated team of certified professionals</li>
+                        <li><i class="fas fa-check-circle"></i> Round-the-clock client care</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-primary">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get in Touch</h2>
+                <p class="section-subtitle">We are here to help you find your dream property</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info" data-aos>
+                    <div class="contact-item"><div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div><div class="contact-details"><h4>Address</h4><p>Fifth Settlement, New Cairo, Egypt</p></div></div>
+                    <div class="contact-item"><div class="contact-icon"><i class="fab fa-whatsapp"></i></div><div class="contact-details"><h4>WhatsApp</h4><a href="https://wa.me/201159010864" target="_blank" rel="noopener" class="whatsapp-btn"><i class="fab fa-whatsapp"></i> Chat on WhatsApp</a></div></div>
+                    <div class="contact-item"><div class="contact-icon"><i class="fas fa-envelope"></i></div><div class="contact-details"><h4>Email</h4><p>info@luxeestates.com</p></div></div>
+                    <div class="social-links">
+                        <a href="https://wa.me/201159010864" target="_blank" rel="noopener" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                        <a href="https://www.instagram.com/ahmed_.elarby" target="_blank" rel="noopener" title="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.tiktok.com/@ahmed_.elarby" target="_blank" rel="noopener" title="TikTok"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form" data-aos id="contactForm">
+                    <div class="form-group"><input type="text" name="name" placeholder="Full Name" required></div>
+                    <div class="form-group"><input type="email" name="email" placeholder="Email Address" required></div>
+                    <div class="form-group"><input type="tel" name="phone" placeholder="Phone Number" required></div>
+                    <div class="form-group"><textarea name="message" placeholder="Your Message" rows="5" required></textarea></div>
+                    <button type="submit" class="btn btn-primary btn-full"><i class="fas fa-paper-plane"></i> Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col footer-brand">
+                    <div class="footer-logo"><i class="fas fa-building"></i><span>Luxe Estates</span></div>
+                    <p>Setting the standard in luxury real estate. We connect distinguished clients with the finest residences, delivering excellence in every detail.</p>
+                    <div class="footer-social">
+                        <a href="https://wa.me/201159010864" target="_blank" rel="noopener" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                        <a href="https://www.instagram.com/ahmed_.elarby" target="_blank" rel="noopener" title="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.tiktok.com/@ahmed_.elarby" target="_blank" rel="noopener" title="TikTok"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#properties">Properties</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Our Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="#services">Buying &amp; Selling</a></li>
+                        <li><a href="#services">Property Rental</a></li>
+                        <li><a href="#services">Investment Consulting</a></li>
+                        <li><a href="#services">Legal Procedures</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact Info</h4>
+                    <ul class="footer-contact">
+                        <li><i class="fas fa-map-marker-alt"></i><span>Fifth Settlement, New Cairo, Egypt</span></li>
+                        <li><i class="fas fa-envelope"></i><span>info@luxeestates.com</span></li>
+                        <li><i class="fab fa-whatsapp"></i><a href="https://wa.me/201159010864" target="_blank" rel="noopener">WhatsApp Us</a></li>
+                        <li><i class="fas fa-clock"></i><span>Sun – Thu : 9:00 AM – 6:00 PM</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Luxe Estates. All Rights Reserved.</p>
+                <p class="created">Created by <span>Ahmed Elarby</span> <i class="fas fa-heart"></i></p>
+            </div>
+        </div>
+    </footer>
+
+    <button class="back-to-top" id="backToTop"><i class="fas fa-arrow-up"></i></button>
+
+    <script src="main.js"></script>
+</body>
+</html>
